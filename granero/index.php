@@ -1,0 +1,24 @@
+<?php
+error_reporting(0);
+date_default_timezone_set('America/Puerto_Rico');
+$hosting = '';
+$basededatos = 'granero';
+$usuariobd = 'root';
+$passbd = '12345678';
+$app_folder = 'app';
+$assets_folder = 'assets';
+$url_site = 'http://localhost/granero/';
+$sal = 'RcgfmqqNC5hhR10';
+$port = '3306';
+define('SELF', pathinfo(__FILE__, PATHINFO_BASENAME));
+define('BASEPATH', $app_folder);
+define('ASSETSPATH', $assets_folder);
+define('URLSITE', $url_site);
+define('HOSTINGDB', $hosting);
+define('DATABASENAME', $basededatos);
+define('USERDATABASE', $usuariobd);
+define('PASSDATABASE', $passbd);
+define('PORTDATABASE', $port);
+define('SALT', $sal);
+define('LOCALINS', true);
+require_once BASEPATH.'/autoload.php';

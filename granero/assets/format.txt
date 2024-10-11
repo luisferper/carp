@@ -1,0 +1,6 @@
+Los insumos son separados por el simbolo "|"
+Nombre del Insumo|Descripcion del Insumo|Codigo del Insumo|Precio del Insumo
+
+Ejemplo:
+Producto 1|Ejemplo de Producto|123|15
+Producto 2|Descrip de Insumo|456|25

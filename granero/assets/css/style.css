@@ -1,0 +1,239 @@
+@import url("dataTables.bootstrap5.min.css");
+@import url("responsive.bootstrap5.min.css");
+@import url("jquery-ui.css");
+@import url("animate.min.css");
+
+
+@media (min-width: 768px){
+   .layout-boxed {
+       background: #0d1218;
+   }
+}
+
+.card-header:first-child {
+    border-radius: var(--tblr-card-border-radius) var(--tblr-card-border-radius) 0 0;
+    background: #191919;
+    color: #FFFF;
+}
+
+.indx-logo{
+    width: 150px;
+    margin: 0 auto;
+    display: block;
+}
+
+.lgw{
+    font-size: 1.5em;
+}
+
+#clinpt{
+  height: 50px;
+  font-size: 2.5em;
+}
+
+#loader{
+	display: none;
+}
+
+#bigloader{
+  position: fixed;
+  display: none;
+  float: left;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background: #000;
+}
+
+.modal-backdrop.show {
+    opacity: 0.5;
+    background: #000;
+}
+
+.icon-tabler{
+  margin-right: 3px;
+}
+
+.nav-link-title{
+	margin-left: 4px 
+}
+
+.totalAccountSingle{
+  font-size: 2.5em;
+}
+
+#sbmnu{
+	text-align: center;
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+.navbar-nav .nav-item {
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5px;
+    opacity: 0.5;
+}
+
+.nav-item:hover {
+    opacity: 1;
+    border-bottom: 1px solid;
+}
+
+.headermesa{
+    font-size: 16px;
+}
+
+.headermesa .icon{
+   margin-right: 5px;
+}
+
+.btn-block{
+	display: block;
+	float: left;
+	width: 100%;
+}
+
+#notification{
+  text-align: center;
+  display:inline-block;
+  padding:10px 5px;
+  position:fixed;
+  width:250px;
+  top:10px;
+  right:10px;
+  z-index:1989
+}
+
+.addbutton{
+  text-align: center;
+  text-decoration: none;
+  background: #6a2ea8;
+  padding: 7px 8px;
+  border-radius: 6px;
+  color: #FFF;
+  cursor: pointer;
+  display: block;
+  float: left;
+  width: 100%;
+}
+
+.ttladd{
+  background: #285881;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+#tableInsuAdd svg{
+  margin: 0px;
+}
+
+.form-control.disabled, .form-control:disabled {
+    color: #d1d6dd;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.deliverySt{
+    display: inline-block;
+    width: 27px;
+    height: 26px;
+    text-align: center;
+    padding-top: 2px;
+    border-radius: 50%;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    cursor: pointer;  
+    color: #FFF;
+}
+
+.noIE{
+    background: #ad2929;
+}
+
+.yesIE{
+    background: #31ad29;
+}
+
+#PayForm input{
+    height: 70px;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+#PayForm select{
+    height: 70px;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+
+#closePaysuccess{
+  background: #000;
+}
+
+#imgfrmsys{
+  display: none;
+}
+
+/* Install */
+#menu-install a{
+    display: inline-block;
+    text-align: center;
+    margin-right: 25px;
+    opacity: 0.5;
+}
+
+#menu-install a.active{
+    text-decoration: none;
+    color: #54ef10;
+    opacity: 1;
+}
+
+/* Instalador */
+#second-step{
+  display: none;
+}
+
+#third-step{
+  display: none;
+}
+
+#finishInstallationAlert{
+  display: none;
+}
+
+#loader-recove{
+  display: none;
+}
+
+#actualMesaNum{
+  display: none;
+}
+
+#imptinsm{
+  display: none;
+}
+
+.accountZero{
+  display: block;
+  float: left;
+  width: 100%;
+  border: 2px solid #18477f8c;
+  border-radius: 3px;
+  padding: 7px 15px;
+  margin-top: 1%;
+}
+
+.accountZero h3{
+  margin: 0px;
+}
